@@ -1,24 +1,24 @@
 # roam-bib
 
-A Clojure library designed to ... well, that part is up to you.
+A utility for generating "bibliography" pages for [roam](https://roamresearch.com), using arXiv metadata.
 
 ## Devnotes/TODO
 
-- [] Add command-line arguments
-  - [] Better ways of adding custom text
-  - [] Adding custom titles
-  - [] Custom output files
-  - [] Choose how to handle duplicates
-  - [] Choose how to format titles
-- [] Web interface
-- [] Command-line interface using titles/ids instead of files.
-- [] Non-arXiv sources
+- [ ] Add command-line arguments
+  - [ ] Better ways of adding custom text
+  - [ ] Adding custom titles
+  - [ ] Custom output files
+  - [ ] Choose how to handle duplicates
+  - [ ] Choose how to format titles
+- [ ] Web interface
+- [ ] Command-line interface using titles/ids instead of files.
+- [ ] Non-arXiv sources
 
 Also need to do some major cleaning up of the code.
 
 ## Usage
 
-FIXME
+Run the uberjar in a directory containg arXiv pdfs. `roambib.json` contains the resulting collection of roam pages.
 
 ## License
 
